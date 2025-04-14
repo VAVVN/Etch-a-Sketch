@@ -37,4 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
             square.style.backgroundColor = 'lightblue';
         });
     });
+
+    // change square color to green (reset)
+    const reset = document.getElementById('reset');
+    reset.style.backgroundColor = 'lightgreen';
+    reset.addEventListener('click', function () {
+        const squares = document.querySelectorAll('.square');
+        squares.forEach(square => {
+            square.style.backgroundColor = 'lightgreen';
+        });
+    });
 });
