@@ -1,0 +1,13 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 576px; /* 64*8 + 63 * 1 (gap) + 0.5*2 (2 edges)*/
+    }
+.square {
+    width: 8px;
+    height: 8px;
+    background-color: lightgreen;
+    margin: 0.5px; /* Adjust for spacing between squares */
+    }
+    
