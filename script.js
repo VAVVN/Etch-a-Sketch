@@ -37,6 +37,4 @@ document.addEventListener('DOMContentLoaded', function () {
             square.style.backgroundColor = 'lightblue';
         });
     });
-
-
 });
